@@ -25,7 +25,7 @@
 
 .navbar a:hover {
             background-color: #b6857a;
-            padding:15px;
+            padding:20px;
             color: white;
       }
 
@@ -244,7 +244,7 @@ ul li {
             font-size: 16px;
             }
   .navbar a:hover {
-            padding: 0px;
+            padding: 5px;
       }
 
     h1 {font-size: 32px; }
