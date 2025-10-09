@@ -6,9 +6,9 @@
       }
 
 .navbar {          
-          width: 80%;
+          width: 100%;
           background-color: #ffffff;
-          font-family: 'Poppins';
+          font-family: 'Poppins', sans-serif;
           text-align: right;   
           position: fixed;
           top: 0;  
@@ -17,8 +17,8 @@
 .navbar a {
             color: #333333;
             text-decoration: none;
-            margin: 10px 20px 0px 20px;
-            padding: 20px 20px 20px 20px;
+            margin: 10px 20px 20px 20px;
+            padding: 20px;
             font-weight: 700;
             font-size: 18px;
                   }
@@ -34,7 +34,7 @@
             color: #B6857A;
         }
 h1 {
-            font-family: 'Raleway';
+            font-family: 'Raleway', sans-serif;
             font-weight: 700;
             text-align:center;
             font-size: 50px;
@@ -42,14 +42,14 @@ h1 {
                   }
 
 h2 {
-            font-family: 'Raleway';
+            font-family: 'Raleway', sans-serif;
             font-weight: 700;
             text-align:center;
             font-size: 30px;
             color:#333333
                   }
 h3 {
-            font-family: 'Raleway';
+            font-family: 'Raleway', sans-serif;
             font-weight: 700;
             text-align:left;
             font-size: 24px;
@@ -57,7 +57,7 @@ h3 {
 
                     }
 p {
-            font-family: 'Lato';
+            font-family: 'Lato', sans-serif;
             font-weight: 400;
             font-style: normal;
             color:#333333;
@@ -70,7 +70,7 @@ p {
 }
 
 .homep {
-            font-family: 'Lato';
+            font-family: 'Lato', sans-serif;
             font-weight: 400;
             font-style: normal;
             color:#333333;
@@ -86,7 +86,7 @@ p {
 }
 
 li {
-            font-family: 'Lato';
+            font-family: 'Lato', sans-serif;
             font-weight: 400;
             font-style: normal;
             color:#333333;
@@ -115,7 +115,7 @@ li {
 .strengths-container {
     display: flex;
     gap: 20px;
-    font-family: 'Poppins';
+    font-family: 'Poppins',  sans-serif;
     font-size: 18px;
     margin-top: 20px;
     margin-right: 20px;
@@ -157,7 +157,7 @@ ul li {
 }
 
 .work-experience > li > ul {
-  margin: 12px 0 0 18px;
+  margin: 12px 0px 0px 18px;
   padding: 0;
 }
 
@@ -174,7 +174,9 @@ ul li {
 
 #forest {width:100%;
         max-width:400px;
-        height:auto;}
+        height:auto;
+      flex-shrink: 0;
+      }
 
 .picture-background {
             border-width: 5px; 
@@ -185,10 +187,13 @@ ul li {
  .flex-container {display: flex;
                        flex-direction: row;
                        align-items: flex-start;
+                       width: 90%;
+                       margin: auto;
+                       justify-content: center;
             }
  .flex-container section { width:50%;
-                                margin:10px;
-                                padding:20px;
+                                margin:5px;
+                                padding:5px;
                                }
                                
 .button {
@@ -216,7 +221,7 @@ ul li {
 .button1:hover {
   background-color: #dcbeb6;
   color: #333333;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 .center-btn {
@@ -234,17 +239,15 @@ ul li {
     }
 
 @media (max-width:600px){
-  .navbar {          
-          width: 100%;
-          text-align: center;    
-      }
+  .navbar {text-align: center;}
+
   .navbar a {
-            margin: 5px;
-            padding: 5px;
+            margin: 10px;
+            padding: 10px;
             font-size: 16px;
             }
   .navbar a:hover {
-            padding: 5px;
+            padding: 10px;
       }
 
     h1 {font-size: 32px; }
@@ -260,7 +263,9 @@ ul li {
   .flex-container section {width:90%;}
 
   .strengths-container {display: none;}
-     }
+
+  #forest {max-width:300px;}    
+}
 
 footer {
   width: 100vw;
@@ -268,6 +273,6 @@ footer {
   padding: 10px;
   text-align: left;
   color: white;
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   
 }
