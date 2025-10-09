@@ -211,15 +211,15 @@ ul li {
  }
 
 .button1 {
-  background-color: #B6857A; 
-  color: white; 
-  border: 2px solid #B6857A;
+  background-color: #dcbeb6; 
+  color: black; 
+  border: 2px solid #ccbeb9;
   font-family: 'Poppins';
   
 }
 
 .button1:hover {
-  background-color: #dcbeb6;
+  background-color: #ccbeb9;
   color: #333333;
   font-family: 'Poppins', sans-serif;
 }
@@ -269,10 +269,10 @@ ul li {
 
 footer {
   width: 100vw;
-  background-color: #b6857a;
+  background-color: #ccbeb9;
   padding: 10px;
   text-align: left;
-  color: white;
+  color: black;
   font-family: poppins, sans-serif;
   
 }
